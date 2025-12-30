@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Pretendard", sans-serif;
+}
+
+body {
+  background: #f5f0e8;
+}
+
+.container {
+  width: 100%;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: auto;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.icons span {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.cart em {
+  background: orange;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+/* Hero */
+.hero img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Finder */
+.finder {
+  background: #fff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.finder-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.finder input,
+.finder select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.find-btn {
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  max-width: 1400px;
+  margin: auto;
+  padding: 40px 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.product-img {
+  height: 160px;
+  background: #eee;
+  border-radius: 12px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price {
+  margin-top: 8px;
+}
+
+.sale {
+  color: orange;
+  font-weight: bold;
+}
+
+.origin {
+  margin-left: 8px;
+  text-decoration: line-through;
+  color: #999;
+}
